@@ -3,6 +3,9 @@
   "manifest": {
     "version": 1,
     "install": {
+      "cargo": {
+        "pkg-path": "cargo"
+      },
       "go": {
         "pkg-path": "go"
       }
@@ -24,20 +27,141 @@
   },
   "packages": [
     {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/jawcgpcgg8shqccb2bmak59yzqwxd8s8-cargo-1.86.0.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "name": "cargo-1.86.0",
+      "pname": "cargo",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:21:33.256050Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.86.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/49ig825gp8cvdbz833h1pqk69rp7ddfg-cargo-1.86.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/rvj7k9nl8gzqv7mf8frfwxckmjmwcac8-cargo-1.86.0.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "name": "cargo-1.86.0",
+      "pname": "cargo",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:40:13.847357Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.86.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/j8mqrpgr07llrqb2lyl3c7h4ycmvn8xg-cargo-1.86.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/3d9hq1pg7a0fark7h7vvj42kiv6d44jv-cargo-1.86.0.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "name": "cargo-1.86.0",
+      "pname": "cargo",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:56:44.334824Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.86.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y19gcbdgrks1vc83q8v1d2zi6i3m6npi-cargo-1.86.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo",
+      "broken": false,
+      "derivation": "/nix/store/3k8kbj0wjydnjwnmscvg3wxvvhgmgfdc-cargo-1.86.0.drv",
+      "description": "Downloads your Rust project's dependencies and builds your project",
+      "install_id": "cargo",
+      "license": "[ MIT, Apache-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "name": "cargo-1.86.0",
+      "pname": "cargo",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T05:18:38.468254Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.86.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dlckx46qiwsi14g0kv51kyh0bhvcni1x-cargo-1.86.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
       "attr_path": "go",
       "broken": false,
       "derivation": "/nix/store/mqapxxp8lh91mvkq9zc34krqmja0lc4g-go-1.24.2.drv",
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d89fc19e405cb2d55ce7cc114356846a0ee5e956",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
       "name": "go-1.24.2",
       "pname": "go",
-      "rev": "d89fc19e405cb2d55ce7cc114356846a0ee5e956",
-      "rev_count": 797896,
-      "rev_date": "2025-05-10T19:10:37Z",
-      "scrape_date": "2025-05-13T04:25:17.141792Z",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:21:34.051422Z",
       "stabilities": [
+        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -59,14 +183,15 @@
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d89fc19e405cb2d55ce7cc114356846a0ee5e956",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
       "name": "go-1.24.2",
       "pname": "go",
-      "rev": "d89fc19e405cb2d55ce7cc114356846a0ee5e956",
-      "rev_count": 797896,
-      "rev_date": "2025-05-10T19:10:37Z",
-      "scrape_date": "2025-05-13T04:48:08.888300Z",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:40:15.367208Z",
       "stabilities": [
+        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -88,14 +213,15 @@
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d89fc19e405cb2d55ce7cc114356846a0ee5e956",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
       "name": "go-1.24.2",
       "pname": "go",
-      "rev": "d89fc19e405cb2d55ce7cc114356846a0ee5e956",
-      "rev_count": 797896,
-      "rev_date": "2025-05-10T19:10:37Z",
-      "scrape_date": "2025-05-13T05:08:11.836187Z",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T04:56:45.115190Z",
       "stabilities": [
+        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -117,14 +243,15 @@
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d89fc19e405cb2d55ce7cc114356846a0ee5e956",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=adaa24fbf46737f3f1b5497bf64bae750f82942e",
       "name": "go-1.24.2",
       "pname": "go",
-      "rev": "d89fc19e405cb2d55ce7cc114356846a0ee5e956",
-      "rev_count": 797896,
-      "rev_date": "2025-05-10T19:10:37Z",
-      "scrape_date": "2025-05-13T05:34:20.716602Z",
+      "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+      "rev_count": 799423,
+      "rev_date": "2025-05-13T23:30:50Z",
+      "scrape_date": "2025-05-16T05:18:40.214486Z",
       "stabilities": [
+        "staging",
         "unstable"
       ],
       "unfree": false,
