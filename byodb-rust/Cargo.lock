@@ -22,12 +22,12 @@ checksum = "1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967"
 
 [[package]]
 name = "byodb-rust"
-version = "0.1.0"
-source = "git+https://github.com/five-vee/byodb-rust#ac9ad30f8961ade4da5064080cfd8e879b568379"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3b98e7c37e1cc042e63ab51c575678aba9fad18095ff72f439c2d18fdc432471"
 dependencies = [
  "arc-swap",
  "memmap2",
- "rand",
  "seize",
  "thiserror",
 ]
